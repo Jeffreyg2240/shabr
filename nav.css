@@ -1,0 +1,32 @@
+@media(min-width:786px){
+    .img__wrap {
+        position: relative;
+        height: 20px;
+        width: 55px;
+    }
+
+    .img__description_layer {
+        border-radius: 20px;
+        height: 10px;
+        width: 30px;
+        position: absolute;
+        padding: 10px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        visibility: hidden;
+        display: flex;
+        opacity: 0.6;
+        align-items: center;
+        justify-content: center;
+        transition: opacity .3s, visibility .3s;
+    }
+
+    .img__wrap:hover .img__description_layer {
+        visibility: visible;
+        opacity: 0.6;
+    }
+}
