@@ -4,7 +4,6 @@
         height: 20px;
         width: 55px;
     }
-
     .img__description_layer {
         border-radius: 20px;
         height: 10px;
@@ -37,7 +36,8 @@
         
         
     }
-    
+}
+@media(max-width:768px){
     
 }
 @media(min-width:991px){
@@ -50,6 +50,11 @@
 @media(min-width:1200px){
     
 }
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 .jumbotron{
     background-color:#ffffff;
 }
