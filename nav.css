@@ -4,7 +4,6 @@
         height: 20px;
         width: 55px;
     }
-
     .img__description_layer {
         border-radius: 20px;
         height: 10px;
@@ -33,7 +32,7 @@
         
     }
 }
-@media(max-width:786px){
+@media(max-width:768px){
     
 }
 @media(min-width:991px){
