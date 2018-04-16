@@ -2,11 +2,12 @@ html,
 body {
     width: 100%;
     height: 100%;
+    animation: fadein 2s;
 }
 #landing{
     width: 100%;
     height: 100%;
-      background: linear-gradient(rgba(50,50,50,0.6),rgba(0,0,0,0.75)),
+      background: linear-gradient(rgba(0,0,60,0.6),rgba(40,40,30,0.75)),
         url('img/balloon-1.jpg') no-repeat center;
       background-size: cover;
 }
@@ -20,6 +21,7 @@ h2{
     font-size:20px;
     font-family: 'Dancing Script', cursive;
 }
+
 p{
     color:#ffffff;
     font-family: 'Garamond', Serif ;
@@ -75,4 +77,8 @@ p{
 }
 .location:hover{
     
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
