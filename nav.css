@@ -1,4 +1,4 @@
-@media(min-width:786px){
+@media(min-width:768px){
     .img__wrap {
         position: relative;
         height: 20px;
@@ -29,17 +29,25 @@
         visibility: visible;
         opacity: 0.6;
     }
-    h3{
+    
+}
+@media(max-width:768px){
+    h2 {
+        
+        
         
     }
-}
-@media(max-width:786px){
+    
     
 }
 @media(min-width:991px){
+    h2 {
+        font-size:60px;
+    }
     
 }
     
 @media(min-width:1200px){
     
 }
+
