@@ -85,3 +85,6 @@ p{
     float:right;
     margin-right:20px;
 }
+.jumbotron {
+    background-color:black;
+}
