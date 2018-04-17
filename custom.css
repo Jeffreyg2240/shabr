@@ -18,12 +18,11 @@ h1{
 }
 h2{
     color:#aacbff;
-    font-size:20px;
+    font-size:40px;
     font-family: 'Dancing Script', cursive;
 }
 
 p{
-    color:#ffffff;
     font-family: 'Garamond', Serif ;
     font-size:30px;
 }
@@ -44,7 +43,7 @@ p{
 .sidenav a {
     padding: 8px;
     display: block;
-        color:#fff;
+    color:#fff;
     text-decoration: none;
     font-size: 25px;
     font-family:'Oldenburg', cursive;
@@ -81,5 +80,3 @@ p{
     
 }
 
-    color:black;
-}
