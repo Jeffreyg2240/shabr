@@ -23,7 +23,7 @@
       var dblclick =0;
         function openNav() {
             document.getElementById("mySidenav").style.width = "50px";
-            document.getElementById("main").style.marginLeft = "120px";
+            document.getElementById("main").style.marginLeft = "80px";
             dblclick++;
             if(dblclick==2){
               document.getElementById("mySidenav").style.width = "0";
@@ -43,7 +43,6 @@
 <body>
   <div id="main">
   <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; Open</span>
-  
 <div id="mySidenav" class="sidenav">
   <a href="index.html"><span class="glyphicon glyphicon-home home"></span></a>
   <a href="info.html"><span class="glyphicon glyphicon-info-sign info"></span></a>
@@ -109,16 +108,13 @@
         </div>      
       </div>
       </div>
-      <ul class="pager">
-    <a class="left carousel-control" href="#Carousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" hidden="true"></span>
+    <a class="left carousel-control breadcrumb" href="#Carousel" data-slide="prev" >
+      <span class="glyphicon glyphicon-chevron-left"></span>
     </a>
-    </ul>
-    <ul class="pager">
-    <a class="right carousel-control" href="#Carousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" hidden="true"></span>
+
+    <a class="right carousel-control breadcrumb" href="#Carousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
     </a>
-    </ul>
 </div>
 
 </div>
