@@ -2,67 +2,85 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Title</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oldenburg" rel="stylesheet">
-    <!--custom-->
-    <link rel="stylesheet" href="custom.css">
-    <link rel="stylesheet" href="nav.css">
-    <script>
-      var dblclick=0;
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "50px";
-            document.getElementById("main").style.marginLeft = "120px";
-            dblclick++;
-            if(dblclick==2){
-              document.getElementById("mySidenav").style.width = "0";
-              document.getElementById("main").style.marginLeft= "0";
-              dblclick=0;
-            }
-          
-        }
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oldenburg" rel="stylesheet">
+  <!--custom-->
+  <link rel="stylesheet" href="custom.css">
+  <link rel="stylesheet" href="nav.css">
+  <script>
+    var dblclick = 0;
 
-    </script>
-    <style>
-        
-    </style>
-    
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "50px";
+      document.getElementById("main").style.marginLeft = "120px";
+      dblclick++;
+      if (dblclick == 2) {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+        dblclick = 0;
+      }
+
+    }
+  </script>
+  <style>
+  </style>
+
 </head>
 
 <body>
+  <div class = "image">
+        <img src="hot-air-balloon-clipart.png" class="img-responsive margin" style=height:200px style=width:200px alt="Image">
+    </div>
   <div id="main">
-  <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; Open</span>
-<h1>Info:</h1> <h3>All the information you'll need</h3>
-<div class="jumbotron"><h2>Time</h2>
-<p>Due to climatic conditions, we can safely fly only in the early morning hours with our primary season and most beautiful months being May through November. Since our launch times vary through the seasons, we ask all our guests to call ahead for the exact meeting time.</p>
-<h2>Weather</h2>
-<p>High winds and/or inclement weather prevent us from flying. We ask all our guests to contact us in the early afternoon prior to their scheduled flight between 12:00 noon and 2:00 p.m. to verify that the forecasted weather conditions will allow their balloon flight.</p>
-<h2>Flight</h2>
-<p>Our actual flight time is approximately one to one and a half hours averaging closer to one and a half hours and we suggest to allow three to three and a half hours for the entire adventure.</p>
-<h2>Participation</h2>
-<p>We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.</p>
-<div id="mySidenav" class="sidenav">
-  <a href="index.html"><span class="glyphicon glyphicon-home home"></span></a>
-  <a href="info.html"><span class="glyphicon glyphicon-info-sign info"></span></a>
-  <a href="gallery.html"><span class="glyphicon glyphicon-picture pic"></span></a>
-  <a href="contact.html"><span class="glyphicon glyphicon-user contact"></span></a>
-  <a href="buy.html"><span class="glyphicon glyphicon-tags buy"></span></a>
-  <a href="https://www.google.com/maps/place/Aurora,+CO+80013/@39.6557869,-104.7757262,14.67z/data=!4m8!1m2!2m1!1sSHABR,+Inc.+1234+Shabr+Road+Somewhere,+OT+80013!3m4!1s0x876c898e1a57f51d:0x8defc603cf7048e3!8m2!3d39.6563415!4d-104.7637619"  onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><span class="glyphicon glyphicon-map-marker location">
+    <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; Open</span>
+    <h1>Info:</h1>
+    <h3>All the information you'll need</h3>
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <h2>Time</h2>
+          <p>Due to climatic conditions, we can safely fly only in the early morning hours with our primary season and most beautiful months being May through November. Since our launch times vary through the seasons, we ask all our guests to call ahead
+            for the exact meeting time.</p>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <h2>Weather</h2>
+          <p>High winds and/or inclement weather prevent us from flying. We ask all our guests to contact us in the early afternoon prior to their scheduled flight between 12:00 noon and 2:00 p.m. to verify that the forecasted weather conditions will allow
+            their balloon flight.</p>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <h2>Flight</h2>
+          <p>Our actual flight time is approximately one to one and a half hours averaging closer to one and a half hours and we suggest to allow three to three and a half hours for the entire adventure.</p>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <h2>Participation</h2>
+          <p>We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.</p>
+        </div>
+      </div>
+      <div id="mySidenav" class="sidenav">
+        <a href="index.html"><span class="glyphicon glyphicon-home home"></span></a>
+        <a href="info.html"><span class="glyphicon glyphicon-info-sign info"></span></a>
+        <a href="gallery.html"><span class="glyphicon glyphicon-picture pic"></span></a>
+        <a href="contact.html"><span class="glyphicon glyphicon-user contact"></span></a>
+        <a href="buy.html"><span class="glyphicon glyphicon-tags buy"></span></a>
+        <a href="https://www.google.com/maps/place/Aurora,+CO+80013/@39.6557869,-104.7757262,14.67z/data=!4m8!1m2!2m1!1sSHABR,+Inc.+1234+Shabr+Road+Somewhere,+OT+80013!3m4!1s0x876c898e1a57f51d:0x8defc603cf7048e3!8m2!3d39.6563415!4d-104.7637619" onclick="window.open(this.href); return false;"
+          onkeypress="window.open(this.href); return false;"><span class="glyphicon glyphicon-map-marker location">
   </span></a>
-</div></div>
+      </div>
+    </div>
 
-</div>
+  </div>
 </body>
 
 </html>
