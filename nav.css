@@ -54,8 +54,7 @@
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-
-.jumbotron{
-    background-color:#ffffff;
+input{
+    padding:25px;
+    margin:10px;
 }
-h2{
