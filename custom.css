@@ -96,3 +96,7 @@ center h1{
     font-family: 'Dancing Script', cursive;
 }
 
+
+input{
+    margin:10px;
+}
