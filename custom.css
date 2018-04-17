@@ -85,7 +85,7 @@ center h1{
 .location:hover{
     
 }
-jumbotron {
+.jumbotron {
     background-color: coral;
 }
 .h2-3{
@@ -95,3 +95,4 @@ jumbotron {
     font-size:25px;
     font-family: 'Dancing Script', cursive;
 }
+
