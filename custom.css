@@ -25,8 +25,13 @@ h2{
 p{
     font-family: 'Garamond', Serif ;
     font-size:30px;
+    padding:40px;
+
 }
 
+center h1{
+    padding:50px;
+}
 .sidenav {
     height: 100%;
     width: 0;
@@ -80,11 +85,13 @@ p{
 .location:hover{
     
 }
-
-.image{
-    float:right;
-    margin-right:20px;
+jumbotron {
+    background-color: coral;
 }
-.jumbotron {
-    background-color:black;
+.h2-3{
+    color:#aacbff;
+    margin:10px;
+    padding:20px;
+    font-size:25px;
+    font-family: 'Dancing Script', cursive;
 }
