@@ -100,3 +100,9 @@ center h1{
 input{
     margin:10px;
 }
+.colorchange{
+    background-color:#f95473;
+}
+.colorchange2{
+    background-color:#fffff;
+}
