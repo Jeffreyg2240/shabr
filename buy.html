@@ -32,6 +32,7 @@
             }
           
         }
+        
 
     </script>
     <style>
@@ -40,17 +41,18 @@
     
 </head>
 
-<body >
+<body>
+  
   <div id="buypage"><div id="main">
   <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; Open</span>
 
 <div id="mySidenav" class="sidenav">
-  <a href="index.html" data-toggle="popover" data-placement="right" data-content="Home"><span class="glyphicon glyphicon-home home"></span></a>
-  <a href="info.html"><span class="glyphicon glyphicon-info-sign info"></span></a>
-  <a href="gallery.html"><span class="glyphicon glyphicon-picture pic"></span></a>
-  <a href="contact.html"><span class="glyphicon glyphicon-user contact"></span></a>
-  <a ><span class="glyphicon glyphicon-tags buy"></span></a>
-  <a href="https://www.google.com/maps/place/Aurora,+CO+80013/@39.6557869,-104.7757262,14.67z/data=!4m8!1m2!2m1!1sSHABR,+Inc.+1234+Shabr+Road+Somewhere,+OT+80013!3m4!1s0x876c898e1a57f51d:0x8defc603cf7048e3!8m2!3d39.6563415!4d-104.7637619"  onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><span class="glyphicon glyphicon-map-marker location">
+  <a href="index.html" data-toggle="tooltip" title="Home"><span class="glyphicon glyphicon-home home"></span></a>
+  <a href="info.html" data-toggle="tooltip" title="Info"><span class="glyphicon glyphicon-info-sign info"></span></a>
+  <a href="gallery.html" data-toggle="tooltip" title="Gallery"><span class="glyphicon glyphicon-picture pic"></span></a>
+  <a href="contact.html" data-toggle="tooltip" title="Contact"><span class="glyphicon glyphicon-user contact"></span></a>
+  <a  data-toggle="tooltip" title="Store"><span class="glyphicon glyphicon-tags buy"></span></a>
+  <a href="https://www.google.com/maps/place/Aurora,+CO+80013/@39.6557869,-104.7757262,14.67z/data=!4m8!1m2!2m1!1sSHABR,+Inc.+1234+Shabr+Road+Somewhere,+OT+80013!3m4!1s0x876c898e1a57f51d:0x8defc603cf7048e3!8m2!3d39.6563415!4d-104.7637619"  onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"  data-toggle="tooltip" title="Map"><span class="glyphicon glyphicon-map-marker location">
   </span></a></div>
   
 <form class="form-horizontal">
@@ -70,23 +72,39 @@
     <label class="control-label col-sm-2" >Price:</label>
     <div class="col-sm-10"> 
     <div class="dropdown">
-    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+    <div class="col-sm-10"><button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
     <span class="caret"></span></button>
     <ul class="dropdown-menu">
+      
       <li><a href=#>$375(Package for 1)</a></li>
       <li><a href=#>$700(Package for 2)</a></li>
       <li><a href=#>$1300(Party Package for 4)</a></li>
+      <li class="divider"></li>
+      <li class="dropdown-header">SPECIAL OFFER</li>
       <li><a href=#>$2200(Family Package for 8)</a></li>
     </ul>
-  </div>
+    </div>
+  </div></div>
+   <label class="control-label col-sm-2" >Date of Arrival</label>
+  <div class="col-sm-10"> <input type="date" name="arrival">
 </div>
+
     </div>
     <div class="col-sm-10">
       <button type="submit" class="btn btn-default">Submit</button>
     </div>
+    <img src="img/hot-air-balloon-clipart.png" width="200px">
+   <font face="verdana" color="#e2b728">Float Onwards</font></h2></form>
+  <br><strong>Copyright &copy; 2<img src="img/hot-air-balloon-clipart.png" width="10px">16   |   SHABR</strong>
+
   </div>
-</form>
-</div></div></div>
+  
+</div>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
 </body>
 
 </html>

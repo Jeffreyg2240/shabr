@@ -31,7 +31,6 @@
         document.getElementById("main").style.marginLeft = "0";
         dblclick = 0;
       }
-
     }
   </script>
   <style>
@@ -40,11 +39,16 @@
 </head>
 
 <body>
+  <script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
   <div id="landing2"><div id="main">
     <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; Open</span>
     <span class=""><h1>Info:</h1>
           <div id="mySidenav" class="sidenav">
-        <a href="index.html"><span class="glyphicon glyphicon-home home"></span></a>
+        <a href="index.html" data-toggle="tooltip" data-placement="right" title="Home"><span class="glyphicon glyphicon-home home"></span></a>
     <a href="info.html"><span class="glyphicon glyphicon-info-sign info"></span></a>
     <a href="gallery.html"><span class="glyphicon glyphicon-picture pic"></span></a>
     <a href="contact.html"><span class="glyphicon glyphicon-user contact"></span></a>
@@ -77,6 +81,8 @@
       </div>
     </div>
   </div>
+  <strong>Copyright &copy; 2<img src="img/hot-air-balloon-clipart.png" width="10px">16   |   SHABR</strong>
+
   </div></div>
 </body>
 
