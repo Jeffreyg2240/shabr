@@ -103,3 +103,40 @@ center h1{
 input{
     margin:10px;
 }
+@media(min-width:768px){
+    h2 {
+        font-size:23px;
+    }
+    h1{
+        font-size:75px;
+    }
+    h3{
+        font-size:75px;
+    }
+}
+@media(max-width:768px){
+    h2 {
+        font-size:45px;
+    }
+    h1{
+        font-size:50px;
+    }
+    h3{
+        font-size:35px;
+    }
+}
+@media(min-width:991px){
+    h2 {
+        font-size:40px;
+    }
+    h1 {
+        font-size:98px;
+    }
+    h3{
+        font-size:60px;
+    }
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
